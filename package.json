@@ -28,7 +28,7 @@
   "config": {
     "port": 8000,
     "entry": {
-      "rmc-nuka-carousel": [
+      "fishd-nuka-carousel": [
         "./index.js"
       ]
     }
@@ -52,17 +52,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-component/nuka-carousel.git"
+    "url": "https://github.com/hangaoke1/fishd-nuka-carousel.git"
   },
   "keywords": [
     "react",
     "carousel",
     "nuka"
   ],
-  "author": "Ken Wheeler",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/react-component/nuka-carousel/issues"
   },
-  "homepage": "https://github.com/react-component/nuka-carousel"
+  "author": "Li Tai",
+  "license": "MIT",
+  "homepage": "https://github.com/hangaoke1/fishd-nuka-carousel",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
 }
