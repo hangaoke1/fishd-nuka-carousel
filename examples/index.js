@@ -10553,7 +10553,6 @@ var Carousel = function (_React$Component) {
                 }
                 ;
                 if (index >= __WEBPACK_IMPORTED_MODULE_5_react___default.a.Children.count(_this.props.children)) {
-                    console.log('>>> 节骨眼1');
                     beforeSlide(_this.state.currentSlide, 0);
                     return _this.setState({
                         currentSlide: 0
