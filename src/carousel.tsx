@@ -622,7 +622,6 @@ class Carousel extends React.Component<ICarouselProps, any> {
       if (!this.props.wrapAround) { return; };
 
       if (index >= React.Children.count(this.props.children)) {
-        console.log('>>> 节骨眼1')
         beforeSlide!(this.state.currentSlide, 0);
         return this.setState({
           currentSlide: 0,

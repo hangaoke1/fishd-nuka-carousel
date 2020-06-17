@@ -1,6 +1,6 @@
 {
   "name": "fishd-nuka-carousel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pure React Carousel",
   "main": "./lib/index",
   "module": "./es/index",
