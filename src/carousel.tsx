@@ -635,7 +635,6 @@ class Carousel extends React.Component<ICarouselProps, any> {
           });
         });
       } else {
-        console.log('>>> 节骨眼2')
         const endSlide = React.Children.count(this.props.children) - this.state.slidesToScroll;
         beforeSlide!(this.state.currentSlide, endSlide);
         return this.setState({
