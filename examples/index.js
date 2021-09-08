@@ -10566,7 +10566,6 @@ var Carousel = function (_React$Component) {
                         });
                     });
                 } else {
-                    console.log('>>> 节骨眼2');
                     var endSlide = __WEBPACK_IMPORTED_MODULE_5_react___default.a.Children.count(_this.props.children) - _this.state.slidesToScroll;
                     beforeSlide(_this.state.currentSlide, endSlide);
                     return _this.setState({
